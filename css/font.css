@@ -1,0 +1,35 @@
+@font-face {
+    font-family: "AbadiMT-CondensedLight";
+    src: url("../font/AbadiMT-CondensedLight.eot");
+    src: url("../font/AbadiMT-CondensedLight.eot?") format("embedded-opentype"), 
+         url("../font/AbadiMT-CondensedLight.woff") format("woff"), 
+         url("../font/AbadiMT-CondensedLight.ttf")  format("truetype"),
+         url("../font/AbadiMT-CondensedLight.svg#font/AbadiMT-CondensedLight") format("svg");        
+}
+
+@font-face {
+    font-family: "helveticaneue-light";
+    src: url("../font/helveticaneue-light.eot");
+    src: url("../font/helveticaneue-light.eot") format("embedded-opentype"),
+         url("../font/helveticaneue-light.woff") format("woff"),
+         url("../font/helveticaneue-light.ttf") format("truetype"),
+         url("../font/helveticaneue-light.svg#HelveticaNeueLight") format("svg");
+}
+
+@font-face {
+    font-family: "helveticaneue-bold";
+    src: url("../font/helveticaneue-bold.eot");
+    src: url("../font/helveticaneue-bold.eot") format("embedded-opentype"),
+         url("../font/helveticaneue-bold.woff") format("woff"),
+         url("../font/helveticaneue-bold.ttf") format("truetype"),
+         url("../font/helveticaneue-bold.svg#HelveticaNeueBold") format("svg");
+}
+
+@font-face {
+    font-family: "komika-axis";
+    src: url("../font/komika-axis.eot");
+    src: url("../font/komika-axis.eot") format("embedded-opentype"),
+         url("../font/komika-axis.woff") format("woff"),
+         url("../font/komika-axis.ttf") format("truetype"),
+         url("../font/komika-axis.svg#KomikaAxis") format("svg");
+}

@@ -1,0 +1,201 @@
+html{
+   height: 100%
+}
+
+body{
+   height: 100%;
+   display: block;
+}
+
+body,h1,h2,h3,h4,h5,h6{
+	font-family: Arial, Helvetica, sans-serif;
+	color: #000;
+	line-height: 1.8;	
+}
+
+a:hover{
+	text-decoration:none;	
+}
+
+.btn{
+	border-radius: 0px;		
+	vertical-align: middle;
+	text-align: center;
+}
+
+.btn-order{
+	font-size: 2.4em;
+	font-family: "AbadiMT-CondensedLight",sans-serif;
+	background-color: #C2282E;
+	border-color: #C2282E;
+	color: #fff;		
+	text-transform: uppercase;
+	padding:0px;
+	font-weight: bold;
+	font-style: italic;	
+}
+
+.btn-order:hover{
+	background-color: #fff;
+	border-color: #fff;
+	color:  #C2282E;
+}
+
+.text-cent{text-align:center;}
+
+/* Font CSS */
+
+
+@font-face {
+    font-family: 'fororoundedextralight';
+    src: url('../font/foroelight/fororounded-extralight-webfont.eot');
+    src: url('../font/foroelight/fororounded-extralight-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/foroelight/fororounded-extralight-webfont.woff') format('woff'),
+         url('../font/foroelight/fororounded-extralight-webfont.ttf') format('truetype'),
+         url('../font/foroelight/fororounded-extralight-webfont.svg#fororoundedextralight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'fororoundedlight';
+    src: url('../font/fororlight/fororounded-light-webfont.eot');
+    src: url('../font/fororlight/fororounded-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/fororlight/fororounded-light-webfont.woff') format('woff'),
+         url('../font/fororlight/fororounded-light-webfont.ttf') format('truetype'),
+         url('../font/fororlight/fororounded-light-webfont.svg#fororoundedlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'fororoundedmedium';
+    src: url('../font/forormedium/fororounded-medium-webfont.eot');
+    src: url('../font/forormedium/fororounded-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/forormedium/fororounded-medium-webfont.woff') format('woff'),
+         url('../font/forormedium/fororounded-medium-webfont.ttf') format('truetype'),
+         url('../font/forormedium/fororounded-medium-webfont.svg#fororoundedmedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+/* Font CSS */
+
+
+/* images */
+
+img{ border-image-width: 0px !important;}
+.dis-inline{display: inline-block;}
+
+/* header CSS */
+
+.header-main-top{ border-bottom:1px solid #d8d8d8; height: 41px; display: none; }
+.header-main{padding: 4px 0 6px 0; border-bottom:1px solid #d8d8d8; }
+p.d-text{color:#949494; font-size: 20px; padding: 0; margin: 0 0 0 12px; font-family: 'fororoundedextralight'; font-weight: 600;}
+p.d-text a{color:#949494; font-size: 20px; text-decoratin:none;}
+p.d-text a:hover{ color:#949494;}
+.mar-set{ margin: -2px 3px 0 0;}
+.share a{text-decoration: none; color:#5879ed; font-family: 'fororoundedmedium'; text-transform: uppercase; font-weight: 500; margin-top: 8px; display: inline-block; }
+.share a:hover{color: #2d53d6;}
+
+/* header CSS */
+
+
+/* Content CSS */
+
+.cont-main{ margin-top: 108px;}
+.text-cent{text-align: center;}
+.text-mid{border-top:1px solid #d8d8d8; margin-top: 23px; padding-top: 15px;}
+.text-mid h3{ font-size: 36px; font-family: 'fororoundedextralight'; color:#040404/0,0,0; padding: 0; margin: 0 0 12px 0; font-weight: 600;}
+.text-mid p{font-size: 13px; color:#646464; padding: 0; margin: 0 0 7px 0; font-family: 'fororoundedlight';}
+.text-mid p a{ text-decoration: underline; color:#646464; margin-left: 10px;}
+.text-mid p a:hover{ text-decoration: none;}
+.text-mid .deal-button{ font-family: 'fororoundedmedium'; background: transparent; width: 100%; margin-top: 18px;  display: block; font-size: 24px; color:#5879ed; border: 2px solid #6785ee; border-radius:50px; -moz-border-radius:50px; -ms-border-radius:50px; -webkit-border-radius:50px; -khtml-border-radius:50px; -o-border-radius:50px;}
+.text-mid .deal-button:hover{outline:none;border: 2px solid #6785ee; background: #6785ee; color: #f1f1f1;  -webkit-transition: all 1s ease-in-out;
+-moz-transition: all 1s ease-in-out;
+-o-transition: all 1s ease-in-out;
+transition: all 1s ease-in-out;}
+.text-mid .deal-button:active, .text-mid .deal-button:focus{ outline:none !important;}
+.text-mid .deal-button:after{outline:none; border:none;}
+.share-gap{ margin-top: 50px; visibility: hidden;}
+p.share-text{color: #1b1b1b; font-size: 13px; padding: 0; margin: 0;}
+ul.share-nav{ padding: 0; margin: 18px 0 0 0; text-align: center;}
+ul.share-nav li{ display: inline-block; list-style: none; margin-right: 14px; }
+ul.share-nav li a.tweet{width:44px; height: 44px; background: url(../img/tweet-nor.png) no-repeat; float:left;}
+ul.share-nav li a.tweet:hover{width:44px; height: 44px; background: url(../img/tweet-hover.png) no-repeat; float:left;}
+ul.share-nav li a.pin{width:44px; height: 44px; background: url(../img/pin-nor.png) no-repeat; float:left;}
+ul.share-nav li a.pin:hover{width:44px; height: 44px; background: url(../img/pin-hover.png) no-repeat; float:left;}
+ul.share-nav li a.fb{width:44px; height: 44px; background: url(../img/fb-nor.png) no-repeat; float:left;}
+ul.share-nav li a.fb:hover{width:44px; height: 44px; background: url(../img/fb-hover.png) no-repeat; float:left;}
+.top-left{padding-right:95px;}
+
+/* Content CSS */
+
+/* Footer CSS */
+
+.footer-main{ position:relative; bottom: 0; border-top: 1px solid #d8d8d8; padding: 30px 0; width:100%; margin-top: 180px;}
+ul.foot-nav{ text-align: center; padding: 0; margin:0;}
+ul.foot-nav li{display: inline; list-style: none;}
+ul.foot-nav li a{ text-decoration: none; font-weight: 500; font-family: 'fororoundedmedium'; text-transform: uppercase; color: #c7c7c7; margin-right: 24px; font-size: 13px;}
+ul.foot-nav li a:hover{ color: #5c7bea;}
+
+/* Footer CSS */
+
+
+/* Responsive CSS */
+
+@media  (max-width:1040px){
+.header-main-top{display: block;}
+.header-main{display:none;}
+}
+
+@media (min-width: 768px) and (max-width:1024px){
+.text-mid{ margin-top: 10px; padding-top: 10px;}	
+.footer-main{ margin-top: 100px;}
+.share-gap{ visibility: visible;}
+.text-mid{ margin-bottom: 50px;}	
+.header-main-top{display: block;}
+.header-main{display:none;}
+.text-mid{ position: relative; z-index: 9;}
+.text-mid h3{ font-size: 48px; line-height: 80px; font-family: 'fororoundedlight';}
+.text-mid p{font-size: 28px; line-height: 40px; font-family: 'fororoundedlight';}
+/*.text-mid .deal-button{font-size:34px;}*/
+p.share-text{font-size: 16px; font-family: 'fororoundedmedium';}
+ul.foot-nav li a{font-size: 12px;}
+.footer-main{padding:13px 0;}
+
+}
+
+@media(max-width:767px){
+.prod-top{ padding: 0 24px; }		
+.prod-img img {width:100%;}
+.text-mid h3{ font-size: 36px;}
+.header-main-top{display: none;}
+.header-main{display:block}
+.logo{ margin-top: 40px;}
+p.d-text{ text-align: center; font-size: 28px;}
+.no-float{ float: none !important;}
+.cont-main{ margin-top: 42px;}
+.share{display: none;}	
+.share-gap{ visibility: visible;}
+.text-mid{ margin-top: 10px; margin-bottom: 54px; border-bottom: 1px solid #d8d8d8; padding-bottom: 35px}
+p.share-text{ font-size: 16px;}
+.footer-main{ margin-top: 100px;}
+.text-mid p{font-size: 22px;}
+/*.text-mid .deal-button{font-size: 33px;}*/
+p.share-text{ font-size: 18px;}
+ul.foot-nav li a{font-size: 24px;}
+
+}
+
+/* Responsive CSS */
+
+
+
+
