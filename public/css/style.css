@@ -113,7 +113,7 @@ p.d-text a:hover{ color:#949494;}
 .text-cent{text-align: center;}
 .text-mid{border-top:1px solid #d8d8d8; margin-top: 23px; padding-top: 15px;}
 .text-mid h3{ font-size: 36px; font-family: 'fororoundedextralight'; color:#040404/0,0,0; padding: 0; margin: 0 0 12px 0; font-weight: 600;}
-.text-mid p{font-size: 13px; color:#646464; padding: 0; margin: 0 0 7px 0; font-family: 'fororoundedlight';}
+/*.text-mid p{font-size: 13px; color:#646464; padding: 0; margin: 0 0 7px 0; font-family: 'fororoundedlight';}*/
 .text-mid p a{ text-decoration: underline; color:#646464; margin-left: 10px;}
 .text-mid p a:hover{ text-decoration: none;}
 .text-mid .deal-button{ font-family: 'fororoundedmedium'; background: transparent; width: 100%; margin-top: 18px;  display: block; font-size: 24px; color:#5879ed; border: 2px solid #6785ee; border-radius:50px; -moz-border-radius:50px; -ms-border-radius:50px; -webkit-border-radius:50px; -khtml-border-radius:50px; -o-border-radius:50px;}
